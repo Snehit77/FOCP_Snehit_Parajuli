@@ -15,4 +15,3 @@ if __name__ == "__main__":
         print("Cannot add. Most likely username already exists.")
     else:
         add_user(new_username, new_real_name, new_password)
-

@@ -14,4 +14,3 @@ if __name__ == "__main__":
         print("Access granted.")
     else:
         print("Access denied.")
-

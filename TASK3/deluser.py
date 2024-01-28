@@ -12,4 +12,3 @@ def delete_user(username):
 if __name__ == "__main__":
     delete_username = input("Enter username: ")
     delete_user(delete_username)
-

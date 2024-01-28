@@ -21,4 +21,3 @@ if __name__ == "__main__":
         change_password(user_to_change, current_password, new_password)
     else:
         print("Passwords do not match. No change made.")
-
