@@ -1,17 +1,22 @@
-This Python script is designed to analyze a log file containing entries related to the behavior of cats entering and leaving a house. The script takes the path to the log file as a command-line argument. It then reads the file, processes the entries, and performs various analyses. The key metrics include the total number of correct entries by a cat named 'OURS,' the number of times other cats were doused with water, the total time spent inside the house by the correct cat, the average duration of each visit, and the longest and shortest durations of visits. The script handles potential errors, such as file not found, and provides informative output summarizing the analyzed data. It is structured with functions for readability and follows best practices in exception handling.
+
+This Python script functions as a pizza price calculator based on several input parameters. The user is prompted to input the number of pizzas desired, whether it is Tuesday, whether delivery is required, and whether the order is placed via an app. The price function calculates the total price considering factors such as the base pizza price, a discount on Tuesdays, additional delivery costs for small orders, and a discount for app orders. The script ensures user input validation, asking for correct answers if the input is invalid, and then computes the total price using the price function. Finally, it displays the total price with a formatted message. The code is well-structured, leveraging functions and input validation loops for user-friendly interactions and providing clear prompts and messages throughout the process.
 
 
 
 The Output Will be:
 
-Total number of times the correct cat has entered the house is: <correct_entry>
+BPP Pizza Price Calculator
 
-Number of times cats were doused with water: <doused_cats>
+==========================
 
-Total time spent in the house by the correct cat: <total_hours> hours
+How many pizzas would you like to order? 3
 
-Average duration of each visit by the correct cat: <average> minutes
+Is it Tuesday? y
 
-Duration of the longest visit by the correct cat: <maximum> minutes
+Is delivery required? y
 
-Duration of the shortest visit by the correct cat: <minimum> minutes
+Did the customer use the app? n
+
+Total Price: £39.00
+
+Code is written to handle erroneous input.
