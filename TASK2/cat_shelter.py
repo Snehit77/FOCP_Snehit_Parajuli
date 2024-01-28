@@ -59,4 +59,3 @@ if __name__ == "__main__":
 
     log_file_path = sys.argv[1]
     analyze_log(log_file_path)
-
