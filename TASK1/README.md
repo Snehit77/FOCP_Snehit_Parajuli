@@ -2,8 +2,9 @@ This Python script is designed to analyze a log file containing entries related 
 
 
 
-Total number of times the correct cat has entered the house is: <correct_entry>
+The Output Will be:
 
+Total number of times the correct cat has entered the house is: <correct_entry>
 
 Number of times cats were doused with water: <doused_cats>
 
