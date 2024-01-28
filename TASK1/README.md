@@ -3,8 +3,14 @@ This Python script is designed to analyze a log file containing entries related 
 
 
 Total number of times the correct cat has entered the house is: <correct_entry>
+
+
 Number of times cats were doused with water: <doused_cats>
+
 Total time spent in the house by the correct cat: <total_hours> hours
+
 Average duration of each visit by the correct cat: <average> minutes
+
 Duration of the longest visit by the correct cat: <maximum> minutes
+
 Duration of the shortest visit by the correct cat: <minimum> minutes
